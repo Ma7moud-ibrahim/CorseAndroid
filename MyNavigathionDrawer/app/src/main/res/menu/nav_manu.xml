@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn = "navigation_vew"
+    >
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/baseline_add_24"
+        android:title="@string/add"
+        />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_add_home_24"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/baseline_admin_panel_settings_24"
+        android:title="@string/admin"
+        />
+
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="nav_Person"
+                android:icon="@drawable/baseline_assured_workload_24"
+                android:title="@string/my_profile" />
+        </menu>
+    </item>
+</menu>

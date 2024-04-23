@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyNavigationDrawer</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="add">Add</string>
+    <string name="home">Home</string>
+    <string name="admin">Admin</string>
+    <string name="profile">Profile</string>
+    <string name="my_profile">My Profile</string>
+</resources>
