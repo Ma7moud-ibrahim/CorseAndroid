@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 
             dataBaseHelper = ArticleDBHelper(applicationContext)
-            addListener()
+            insertData()
 
             insets
         }
     }
 
-    private fun addListener() {
+    private fun insertData() {
         binding.btnSave.setOnClickListener {
             val title = binding.inputTitle.text.toString()
             val body = binding.inputBody.text.toString()

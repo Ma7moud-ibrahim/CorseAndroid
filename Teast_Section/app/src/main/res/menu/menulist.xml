@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+    android:id="@+id/item1"
+    android:title="Shosha1"
+    />
+    <item
+    android:id="@+id/item2"
+    android:title="Shosha2"
+    />
+    <item
+    android:id="@+id/item3"
+    android:title="Shosha3"
+    />
+    <item
+        android:title="Add"
+        >
+        <menu>
+            <item
+                android:title="gg1"
+                android:id="@+id/gg1"
+                />
+            <item
+                android:title="gg2"
+                android:id="@+id/gg2"
+                />
+            <item
+                android:title="gg3"
+                android:id="@+id/gg3"
+                />
+        </menu>
+    </item>
+    <item
+    android:id="@+id/item4"
+    android:title="Shosha"
+    />
+    <item
+    android:id="@+id/item5"
+    android:title="Shosha"
+    />
+</menu>

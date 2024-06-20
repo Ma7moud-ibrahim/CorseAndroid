@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="dark_bg_color">#121212</color>
+    <color name="dark_toolbar_color">#1E1E1E</color>
+    <color name="dark_button_text_color">#FFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryLight">#FFC107</color>
+    <color name="colorPrimaryDarkLight">#FF9800</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorPrimaryDarkDark">#212121</color>
+
+    <!-- Accent Colors -->
+    <color name="colorAccentLight">#FF4081</color>
+    <color name="colorAccentDark">#00C853</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimaryLight">#000000</color>
+    <color name="textSecondaryLight">#757575</color>
+    <color name="textPrimaryDark">#FFFFFF</color>
+    <color name="textSecondaryDark">#DDDDDD</color>
+</resources>
