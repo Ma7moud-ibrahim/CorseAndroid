@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clinics</string>
+    <string name="dark_mode_button">الوضع المظلم</string>
+    <string name="dark_mode">الوضع المظلم</string>
+    <string name="app_language">لغة التطبيق</string>
+    <string name="add_user">إضافة مستخدم</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="about">عن</string>
+    <string name="setting">الاعدادات</string>
+
+</resources>

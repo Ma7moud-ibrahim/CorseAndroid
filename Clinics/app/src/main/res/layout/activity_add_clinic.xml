@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0277bd"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#0277bd"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:contentInsetEnd="0dp"
+            android:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:title="add clinic"
+            app:titleTextColor="@android:color/white"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBarLayout"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Clinic Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/clinicNameTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#0277bd"
+            android:layout_marginVertical="10dp"
+            app:boxStrokeWidth="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextClinicName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clinic Name"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Clinic Specialty -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/clinicSpecialtyTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#0277bd"
+            android:layout_marginVertical="10dp"
+            app:boxStrokeWidth="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextClinicSpecialty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clinic Specialty" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Examination Price -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/examinationPriceTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#0277bd"
+            android:layout_marginVertical="10dp"
+            app:boxStrokeWidth="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextExaminationPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Examination Price" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Re-Examination Price -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reExaminationPriceTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#0277bd"
+            android:layout_marginVertical="10dp"
+            app:boxStrokeWidth="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextReExaminationPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-Examination Price" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:padding="12dp"
+            android:text="add clinic"
+            app:icon="@drawable/ic_add"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
