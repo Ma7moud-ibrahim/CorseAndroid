@@ -41,6 +41,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val weight = weightText.toDouble()
             if (checked) {
                 calculateWeight(weight, v)
+                if (v.id == R.id.checkBox5) {
+                    binding.checkBox6.isChecked = false
+                    binding.checkBox7.isChecked = false
+                }else if (v.id == R.id.checkBox6) {
+                    binding.checkBox5.isChecked = false
+                    binding.checkBox7.isChecked = false
+                }else if (v.id == R.id.checkBox7) {
+                    binding.checkBox5.isChecked = false
+                    binding.checkBox6.isChecked = false
+                }
             }
         }
     }
