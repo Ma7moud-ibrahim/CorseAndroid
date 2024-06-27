@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Assignment 1</string>
+    <string name="image_one">Image One</string>
+    <string name="name_developer">Mahmoud Ebrahim</string>
+    <string name="app_developer">App Developer</string>
+    <string name="jop">Jop:</string>
+    <string name="mahmoud_ebrahim">Mahmoud Ebrahim</string>
+
+</resources>
