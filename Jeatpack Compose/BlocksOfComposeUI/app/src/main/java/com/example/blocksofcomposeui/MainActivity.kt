@@ -1,6 +1,7 @@
 package com.example.blocksofcomposeui
 
 import android.os.Bundle
+import android.widget.ListView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -50,6 +51,10 @@ fun MyBox(
         Text(text = "World" , modifier = Modifier.align(Alignment.Center) , color = Color.White)
         Text(text = "Everyone" , color = Color.White , modifier = Modifier.align(Alignment.BottomEnd))
     }
+}
+@Composable
+fun MyList(){
+
 }
 
 @Preview(showBackground = true)

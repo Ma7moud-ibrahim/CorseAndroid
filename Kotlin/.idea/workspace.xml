@@ -1,15 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cba3255d-da65-459d-a69d-4a97142d7c8d" name="Changes" comment="" />
+    <list default="true" id="cba3255d-da65-459d-a69d-4a97142d7c8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/androidTest/java/com/example/azkarelmslam/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/DataProject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/Navigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/Typography.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/VMAskarScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/VMGeneralScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/java/com/example/azkarelmslam/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/drawable/hricon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/drawable/shicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/values-b+egy/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/app/src/test/java/com/example/azkarelmslam/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/Azkar Elmslam/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/ListView/app/src/main/java/com/example/listview/GymsApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/ListView/app/src/main/java/com/example/listview/GymsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/androidTest/java/com/example/viewmodel/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/AskarViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/MainScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/ModulAskar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/ProjectData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/java/com/example/viewmodel/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/app/src/test/java/com/example/viewmodel/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jeatpack Compose/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/androidTest/java/com/example/assiagment1/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/java/com/example/assiagment1/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/drawable/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/drawable/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/app/src/test/java/com/example/assiagment1/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/Assigment1/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/AssigmentKotlen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssigmentKotlen/MyAssigment2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jeatpack Compose/BlocksOfComposeUI/app/src/main/java/com/example/blocksofcomposeui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Jeatpack Compose/BlocksOfComposeUI/app/src/main/java/com/example/blocksofcomposeui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProjectKotlin/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProjectKotlin/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListView" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecycleView" beforeDir="false" afterPath="$PROJECT_DIR$/../RecycleView" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarogeEntrnalExtranel" beforeDir="false" afterPath="$PROJECT_DIR$/../StarogeEntrnalExtranel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stoarge" beforeDir="false" afterPath="$PROJECT_DIR$/../Stoarge" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fKjrGxNsP0kbdtPvUyrh1jCZbs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,6 +161,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Projects/Kotlin/FirstProjectKotlin"
   }
