@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnlineKotlenApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_one_fragment">Hello One Fragment</string>
+    <string name="hello_two_fragment">Hello Two Fragment</string>
+    <string name="move">Move</string>
+</resources>
